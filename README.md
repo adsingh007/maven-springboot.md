@@ -3,8 +3,8 @@ The main objective of this document is to understand the working and use of Apac
 
 # Apache Maven  <img src="https://github.com/adsingh007/maven-springboot.md/blob/main/maven-logo-black-on-white.png" align="right" width="20%">
 
-Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
-TO know installation process please click [here](https://github.com/adsingh007/maven-springboot.md/blob/main/Installation-process.md)
+Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.<br/>
+To know installation process please click [here](https://github.com/adsingh007/maven-springboot.md/blob/main/Installation-process.md)
 
 ## Build lifecycles
 
