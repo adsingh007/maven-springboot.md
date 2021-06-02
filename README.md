@@ -7,16 +7,17 @@ Apache Maven is a software project management and comprehension tool. Based on t
 To know installation process please click [here](https://github.com/adsingh007/maven-springboot.md/blob/main/Installation-process.md)
 
 # Maven Overview
-Maven is centered around the concept of POM files (Project Object Model). A POM file is an XML representation of project resources like source code, test code, dependencies (external JARs used) etc. The POM contains references to all of these resources. The POM file should be located in the root directory of the project it belongs to.
-<img src="https://github.com/adsingh007/maven-springboot.md/blob/main/pom%201.png" align="center"> <br/>
+Maven is centered around the concept of POM files (Project Object Model). A POM file is an XML representation of project resources like source code, test code, dependencies (external JARs used) etc. The POM contains references to all of these resources. The POM file should be located in the root directory of the project it belongs to.<br/> <br/>
+<img src="https://github.com/adsingh007/maven-springboot.md/blob/main/pom%201.png" align="center"> <br/> <br/>
 ### Maven POM Files
-When you execute a Maven command you give Maven a POM file to execute the commands on. Maven will then execute the command on the resources described in the POM.A Maven POM file (Project Object Model) is an XML file that describes the resources of the project. This includes the directories where the source code, test source etc. is located in, what external dependencies (JAR files) your projects has etc. <br/><img src="https://github.com/adsingh007/maven-springboot.md/blob/main/pom%202.png" width="80%"> <br/>
+When you execute a Maven command you give Maven a POM file to execute the commands on. Maven will then execute the command on the resources described in the POM.A Maven POM file (Project Object Model) is an XML file that describes the resources of the project. This includes the directories where the source code, test source etc. is located in, what external dependencies (JAR files) your projects has etc. <br/> <br/>
+<img src="https://github.com/adsingh007/maven-springboot.md/blob/main/pom%202.png" width="80%"> <br/><br/>
 Click below on details for more details.
 <details> 
  
  >The POM file describes what to build, but most often not how to build it. How to build it is up to the Maven build phases and goals. <br/>
-Each project has a POM file. The POM file is named pom.xml and should be located in the root directory of your project. <br/> A project divided into subprojects will typically have one POM file for the parent project, and one POM file for each subproject.  <br/> This structure allows both the total project to be built in one step, or any of the subprojects to be built separately.  <br/>
-  <img src="https://github.com/adsingh007/maven-springboot.md/blob/main/pom3.png" align="center"> <br/>
+Each project has a POM file. The POM file is named pom.xml and should be located in the root directory of your project. <br/> A project divided into subprojects will typically have one POM file for the parent project, and one POM file for each subproject.  <br/> This structure allows both the total project to be built in one step, or any of the subprojects to be built separately.  <br/> <br/>
+  <img src="https://github.com/adsingh007/maven-springboot.md/blob/main/pom3.png" align="center"> <br/> <br/>
   
 - The **ModelVersion** element sets what version of the POM model you are using
 - The **groupId element** is a unique ID for an organization, or a project. Most often you will use a group ID which is similar to the root Java package name of the project.for eg ``` com.jenkov```.
@@ -28,7 +29,7 @@ Each project has a POM file. The POM file is named pom.xml and should be located
 
  ### Super POM
  
- All Maven POM files inherit from a super POM or Parent POM . If no super POM is specified, the POM file inherits from the base POM.<br/>
+ All Maven POM files inherit from a super POM or Parent POM . If no super POM is specified, the POM file inherits from the base POM.<br/><br/>
  <img align="mid" src="https://github.com/adsingh007/maven-springboot.md/blob/main/maven-super-pom.png"> <br/>
  
  You can make a POM file explicitly inherit from another POM file. That way you can change the settings across all inheriting POM's via their common super POM. You specify the super POM at the top of a POM file like this:-
